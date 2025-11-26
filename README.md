@@ -107,3 +107,13 @@ Ejecutar en un dispositivo físico o emulador con Android 7.0 o superior.
 Si la actividad se pausa, los sensores se desregistran para evitar consumo innecesario.
 
 La navegación de carpetas utiliza el Storage Access Framework, que no requiere permisos costosos ni procesamiento extra.
+
+
+![2](https://github.com/user-attachments/assets/2aad6fcc-418a-4548-b97d-f9bdd22521fe)
+![1](https://github.com/user-attachments/assets/45439d53-6c28-4afc-b739-e431b4eb547a)
+![7](https://github.com/user-attachments/assets/46a30ee9-7bd1-4798-9553-e359ccd8934e)
+![6](https://github.com/user-attachments/assets/8b6c9feb-c4b4-48e6-8472-e076188cce7f)
+![5](https://github.com/user-attachments/assets/1483ac35-211f-4449-a9b9-4844fd93de6d)
+![4](https://github.com/user-attachments/assets/bdf42383-ae52-4c47-9d79-96b4518c160d)
+![3](https://github.com/user-attachments/assets/7185b960-db5b-48c5-8ede-117cb9f60cca)
+
