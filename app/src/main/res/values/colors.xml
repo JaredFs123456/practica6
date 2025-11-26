@@ -2,4 +2,23 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores de tema IPN / ESCOM -->
+    <color name="ipn_guinda">#7A003C</color>
+    <color name="ipn_guinda_oscuro">#4A0024</color>
+
+    <color name="escom_azul">#004A8F</color>
+    <color name="escom_azul_oscuro">#00305F</color>
+
+    <color name="tema_texto_claro">#FFFFFF</color>
+
+    <!-- Colores para modo oscuro manual -->
+    <color name="fondo_oscuro">#121212</color>
+    <color name="tarjeta_oscura">#1E1E1E</color>
+
+    <!-- Colores de texto para modo oscuro -->
+    <color name="texto_rosa_ipn">#FFB6C1</color>
+    <color name="texto_azul_escom">#64B5F6</color>
+
+
 </resources>

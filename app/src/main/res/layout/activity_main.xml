@@ -7,13 +7,85 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- Título de la app -->
     <TextView
+        android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Práctica 6"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnCarpetas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Botón para carpetas protegidas -->
+    <Button
+        android:id="@+id/btnCarpetas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar a Carpetas Protegidas"
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Botón para la pantalla de sensores -->
+    <Button
+        android:id="@+id/btnSensores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sensores"
+        app:layout_constraintTop_toBottomOf="@id/btnCarpetas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Texto de selección de tema -->
+    <TextView
+        android:id="@+id/txtTemaTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona un tema:"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/btnSensores"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+    <!-- Switch modo oscuro ☀️ / 🌙 -->
+    <Switch
+        android:id="@+id/swModoOscuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☀️"
+        app:layout_constraintTop_toBottomOf="@id/txtTemaTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Botón Tema Guinda -->
+    <Button
+        android:id="@+id/btnTemaGuinda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema Guinda (IPN)"
+        app:layout_constraintTop_toBottomOf="@id/swModoOscuro"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"/>
+
+    <!-- Botón Tema Azul -->
+    <Button
+        android:id="@+id/btnTemaAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tema Azul (ESCOM)"
+        app:layout_constraintTop_toBottomOf="@id/swModoOscuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
